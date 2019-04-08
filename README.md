@@ -69,7 +69,7 @@ Before using this project, please check the file tree and prepare the necessary 
 Generally, you should download the bert pretrain model [chinese_L-12_H-768_A-12](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip).
 You can modify the default parameters and train your own chinese couplet model based on the pretrain bert model, then run ```step 2```
 If you want to fastly evaluate the couplet model, then skip the ```step2``` and download my pretrain model(37300 steps) please. 
-However, I can't guarantee the performance. Any better experiment results can be added to the issues.
+However, **I can't guarantee the performance**. Any better experiment results can be added to the issues.
 
 ### step 2:
 
