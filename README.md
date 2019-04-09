@@ -59,7 +59,7 @@ down part : 廉风善政,图强致富振神州
 
 bert pretrain model download url:   [chinese_L-12_H-768_A-12](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)
 
-chinese couplet model download url: [couplet_model baiduyun](https://pan.baidu.com/s/1htBauU3PnbpE1Y4by8UC7Q) [couplet model googlecloud](https://drive.google.com/drive/folders/1y6kg3tLcEDbEneTN6CvBc6eNgyvEqVG4?usp=sharing)
+chinese couplet model download url: [couplet_model baiduyun](https://pan.baidu.com/s/1htBauU3PnbpE1Y4by8UC7Q) or [couplet model googlecloud](https://drive.google.com/drive/folders/1y6kg3tLcEDbEneTN6CvBc6eNgyvEqVG4?usp=sharing)
 ## Usage
 
 Before using this project, please check the file tree and prepare the necessary files.
@@ -67,7 +67,7 @@ Before using this project, please check the file tree and prepare the necessary 
 ### step 1:
 
 Generally, you should download the bert pretrain model [chinese_L-12_H-768_A-12](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip).
-You can modify the default parameters and train your own chinese couplet model based on the pretrain bert model, then run ```step 2```
+You can modify the default parameters and train your own chinese couplet model based on the pretrain bert model, then run ```step 2```.
 If you want to fastly evaluate the couplet model, then skip the ```step2``` and download my pretrain model(37300 steps) please. 
 However, **I can't guarantee the performance**. Any better experiment results can be added to the issues.
 
