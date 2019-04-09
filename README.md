@@ -124,3 +124,4 @@ label: 蝉鸣春下课[SEP]	电闪夏登台[SEP]
 
 ## Acknowledge
 [1] https://github.com/google-research/bert.git
+[2] https://github.com/wb14123/seq2seq-couplet.git
