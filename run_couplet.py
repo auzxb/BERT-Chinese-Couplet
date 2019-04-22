@@ -480,7 +480,7 @@ def create_model(bert_config, is_training, input_ids, input_mask, segment_ids,
     # tf.logging.info("***flat_label_ids***")
     # tf.logging.info(flat_label_ids.shape)
 
-    KL_loss = tf.reduce_sum(-tf.reduce_sum(label_distribute * tf.log(label_distribute/(pred_distribute + 1e-8) + 1e-8), axis=-1)*input_mask)/tf.reduce_sum(input_mask)
+    KL_loss = tf.reduce_sum(tf.reduce_sum(label_distribute * tf.log(label_distribute/(pred_distribute + 1e-8) + 1e-8), axis=-1)*input_mask)/tf.reduce_sum(input_mask)
 
     output_weights = tf.get_variable(
         "out_weights", [num_labels, hidden_size],
